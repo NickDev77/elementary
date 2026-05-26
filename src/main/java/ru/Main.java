@@ -1,6 +1,6 @@
 package ru;
 
-import ru.calculator.Calculator;
+import static ru.calculator.MathFunc.func1;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,8 +8,7 @@ public class Main {
         System.out.println("initial commit");
         System.out.println("Hello world");
 
-        Calculator.plus(100, 500);
-        Calculator.plus(4, 2);
-        Calculator.plus(3, 5);
+        int result = func1(100);
+        System.out.println(result);
     }
 }
