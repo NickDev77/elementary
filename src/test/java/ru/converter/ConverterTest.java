@@ -17,8 +17,6 @@ class ConverterTest {
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
 
-
-
     @Test
     void whenConvert250RblThen2Dot5Euro() {
         float in = 250;
