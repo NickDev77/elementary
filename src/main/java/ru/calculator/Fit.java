@@ -18,9 +18,8 @@ public class Fit {
         System.out.println("Man 187 is " + man);
 
         short womanHeight = 165;
-        double woman = Math.round(womanWeight(womanHeight));
+        double woman = womanWeight(womanHeight);
         System.out.println("Woman 165 is " + woman);
     }
-
 }
 
